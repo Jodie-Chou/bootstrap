@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+/************图片轮播 ************/
+#myCarousel .carousel-control{top:50%;width:27px;height:27px;background: url("../images/flexslider/bg_direction_nav.png") no-repeat;filter:alpha(opacity=100);opacity: 1;}
+#myCarousel .carousel-indicators{display: none;}
+#myCarousel .left{left:10%;}
+#myCarousel .carousel-control.right{right:10%;background-position: right;}
+
+@media (max-width: 479px) {
+    #myCarousel .carousel-control{top:25%;}
+}
+
+/**********首页jumbotron*************/
+#content .jumbotron .btn-default{margin: 0;font-size: 16px;padding-left:25px;padding-right: 25px;color:#444;box-shadow:1px 3px 6px #848484;
+    background: -webkit-gradient(linear,#ddd,#c0c0c0);
+    background: linear-gradient(#ddd,#c0c0c0);}
+@media  screen and (min-width:768px){
+    #content .jumbotron .jum-btn{float:none;display: inline-block;}
+}
+/**********首页图片展示*************/
+.con-pic1 h4{float: left;width:80%;font-size: 18px;color: #222;font-weight: bold;}
+.con-pic1 hr{float: left;width:10%;border-color: #ccc;}
+@media (min-width: 480px) and (max-width: 767px) {
+    #content .con-pic1 .plus{right:5px;}
+    #content .con-pic1   figure{width:80%;margin-left:auto;margin-right: auto;}
+}
+/*******Start Content-comment****/
+#content blockquote{border-left: 0 none;border-top:1px solid #ddd;border-bottom:1px solid #ddd;padding-left: 14%;padding-right: 14%;background:#fff;color: #8e8e8e;}
+#content blockquote img{float: left;margin-right: 10px;margin-top: 5px;}
+#content blockquote small{margin:15px 0;}
+#content blockquote p{margin:15px 0;text-align: left;font-size: 20px;}
+/*******End Content-comment****/

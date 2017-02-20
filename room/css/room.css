@@ -1,0 +1,23 @@
+@charset "utf-8";
+/************room Page jumbotron**************/
+#content .jumbotron{padding-bottom: 0;}
+#content .content-room{text-align: left;}
+#content .content-room figcaption{position: relative;}
+#content .content-room h4{color:#333;font-weight: bold;}
+#content .content-room p{margin-top: 18px;}
+#content .content-room footer{margin-top: 10px;}
+
+/************room Page content信息展示**************/
+#content .btn{border:0;margin-right: 10px;font-size: 14px;padding-top: 5px;padding-bottom: 5px;border-radius: 2px;}
+#content .btn-detail{color:#444;box-shadow: 0px 3px 4px #818181,-2px 1px 0 #c1c1c1,2px 1px 0 #c1c1c1;background: -webkit-gradient(linear,#dedede,#c6c6c6);
+                     background:linear-gradient(#dedede,#c6c6c6);}
+#content .btn-book{color: #fff;box-shadow: 0px 3px 4px #818181,-2px 1px 0 #c1c1c1,2px 1px 0 #c1c1c1;background: -webkit-gradient(linear,#799cbe,#6082a1);
+    background:linear-gradient(#799cbe,#6082a1);}
+
+@media (max-width: 767px) {
+    #content .content-room{text-align: center;}
+    #content .content-room figcaption{width: 85%;margin-left: auto;margin-right: auto;}
+}
+@media (max-width: 479px){
+    #content .btn{font-size: 12px;padding-left: 5px;padding-right: 5px;}
+}

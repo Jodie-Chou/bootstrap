@@ -1,0 +1,37 @@
+@charset "UTF-8;";
+
+/********about page .jumbotron css***********/
+#content{text-align: left;}
+#content .jumbotron{margin-top: 0px;}
+#content .jumbotron h2{float: left;width:70%;}
+@media (min-width: 768px) {
+    #content .jumbotron h2{width: 50%;}
+    #content .jumbotron hr{width:25%;}
+}
+@media (max-width: 479px) {
+    #content .jumbotron h2{width:80%;margin-top: 28px;}
+    #content .jumbotron hr{width:8%;}
+}
+
+/**********about 中间主体内容**************/
+#content .about-con{padding-top: 0;}
+#content .about-con h4{padding-bottom: 10px;color: #222;font-weight: bold;}
+#content .about-con p{text-align: left;margin-bottom: 15px;margin-top: 0;}
+#content .about-con li{line-height: 2;list-style-type: square;}
+#content ul{padding-left:40px;}
+
+/**********about 图片展示**************/
+#content .highlight{padding-top: 0;}
+#content .highlight>.row{margin-left: 0;margin-right: 0;}
+#content .highlight h3{color: #222;font-weight: bold;float:left;}
+#content .highlight hr{float:right;width:70%;margin-top: 30px;}
+@media (max-width: 479px) {
+    #content .highlight hr{width:25%;}
+}
+@media (max-width: 767px){
+    #content .highlight h3{font-size: 20px;}
+}
+@media (min-width: 480px) and (max-width: 991px) {
+
+    #content .highlight hr{width:50%;}
+}
